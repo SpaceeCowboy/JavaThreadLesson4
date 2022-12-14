@@ -33,7 +33,7 @@ public class Main {
                 count = 0;
 
             } catch (InterruptedException e) {
-                e.printStackTrace();
+                System.out.println("Thread has been interrupted");
             }
         }
 
@@ -48,7 +48,7 @@ public class Main {
                     b.put(text);
                     c.put(text);
                 } catch (InterruptedException e) {
-                    e.printStackTrace();
+                    System.out.println("Thread has been interrupted");
                 }
             }
         });
